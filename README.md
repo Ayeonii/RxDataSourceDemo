@@ -1,2 +1,2 @@
-# RxDataSourceDemo
-RxDataSource Demo Project
+# RxDataSourcesDemo
+RxDataSources Demo Project
