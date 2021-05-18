@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCj-wm-M87">
-                        <rect key="frame" x="0.0" y="0.0" width="150" height="94"/>
+                        <rect key="frame" x="16" y="0.0" width="150" height="94"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="150" id="RQp-Kp-kgC"/>
                         </constraints>
@@ -26,14 +26,14 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVv-Lo-lTe">
-                        <rect key="frame" x="150" y="0.0" width="170" height="94"/>
+                        <rect key="frame" x="166" y="0.0" width="154" height="94"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="oCj-wm-M87" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6qO-uD-1yy"/>
+                    <constraint firstItem="oCj-wm-M87" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="6qO-uD-1yy"/>
                     <constraint firstAttribute="bottom" secondItem="oCj-wm-M87" secondAttribute="bottom" id="CSC-Gc-TUy"/>
                     <constraint firstAttribute="trailing" secondItem="fVv-Lo-lTe" secondAttribute="trailing" id="Fl4-55-dUA"/>
                     <constraint firstAttribute="bottom" secondItem="fVv-Lo-lTe" secondAttribute="bottom" id="UCa-49-CvO"/>

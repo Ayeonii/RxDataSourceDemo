@@ -9,4 +9,5 @@ target 'RxDataSourcesDemo' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'
+  pod 'Kingfisher', '5.8.3'
 end
