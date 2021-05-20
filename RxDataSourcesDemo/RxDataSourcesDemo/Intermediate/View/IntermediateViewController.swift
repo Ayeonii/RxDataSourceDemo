@@ -13,15 +13,16 @@ class IntermediateViewController: UIViewController {
     /*
      - TableView 여러 Section
      */
+    
+    private var viewModel = IntermediateViewModel()
+    private var disposeBag = DisposeBag()
+    
     @IBOutlet weak var tableView: UITableView! {
         didSet {
             tableView.delegate = self
             tableView.register(UINib(nibName: "IntermediateTableViewCell", bundle: nil), forCellReuseIdentifier: "IntermediateTableViewCell")
         }
     }
-    
-    private var viewModel = IntermediateViewModel()
-    private var disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()

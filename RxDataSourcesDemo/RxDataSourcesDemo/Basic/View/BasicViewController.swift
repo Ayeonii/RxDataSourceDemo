@@ -13,6 +13,9 @@ import RxSwift
 import RxDataSources
 
 class BasicViewController: UIViewController {
+    
+    private let disposeBag = DisposeBag()
+    private let viewModel = BasicViewModel()
 
     @IBOutlet weak var tableView: UITableView! {
         didSet {
@@ -20,9 +23,6 @@ class BasicViewController: UIViewController {
             tableView.delegate = self
         }
     }
-    
-    private let disposeBag = DisposeBag()
-    private let viewModel = BasicViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()

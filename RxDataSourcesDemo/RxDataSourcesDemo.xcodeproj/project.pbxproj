@@ -36,6 +36,16 @@
 		CCC078342653551C00008954 /* IntermediateSecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC078322653551C00008954 /* IntermediateSecondTableViewCell.xib */; };
 		CCC078372653552900008954 /* IntermediateThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC078352653552900008954 /* IntermediateThirdTableViewCell.swift */; };
 		CCC078382653552900008954 /* IntermediateThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC078362653552900008954 /* IntermediateThirdTableViewCell.xib */; };
+		CCF10149265602A600912EF0 /* AdvancedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF10148265602A600912EF0 /* AdvancedModel.swift */; };
+		CCF1014B265602B100912EF0 /* AdvancedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1014A265602B100912EF0 /* AdvancedViewModel.swift */; };
+		CCF1014F265602E200912EF0 /* AdvancedFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1014D265602E200912EF0 /* AdvancedFirstTableViewCell.swift */; };
+		CCF10150265602E200912EF0 /* AdvancedFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF1014E265602E200912EF0 /* AdvancedFirstTableViewCell.xib */; };
+		CCF10153265602F100912EF0 /* AdvancedSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF10151265602F100912EF0 /* AdvancedSecondTableViewCell.swift */; };
+		CCF10154265602F100912EF0 /* AdvancedSecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF10152265602F100912EF0 /* AdvancedSecondTableViewCell.xib */; };
+		CCF101572656031400912EF0 /* AdvancedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF101552656031400912EF0 /* AdvancedCollectionViewCell.swift */; };
+		CCF101582656031400912EF0 /* AdvancedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF101562656031400912EF0 /* AdvancedCollectionViewCell.xib */; };
+		CCF1015B2656041A00912EF0 /* AdvancedTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF101592656041A00912EF0 /* AdvancedTopTableViewCell.swift */; };
+		CCF1015C2656041A00912EF0 /* AdvancedTopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF1015A2656041A00912EF0 /* AdvancedTopTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +81,16 @@
 		CCC078322653551C00008954 /* IntermediateSecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntermediateSecondTableViewCell.xib; sourceTree = "<group>"; };
 		CCC078352653552900008954 /* IntermediateThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateThirdTableViewCell.swift; sourceTree = "<group>"; };
 		CCC078362653552900008954 /* IntermediateThirdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntermediateThirdTableViewCell.xib; sourceTree = "<group>"; };
+		CCF10148265602A600912EF0 /* AdvancedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedModel.swift; sourceTree = "<group>"; };
+		CCF1014A265602B100912EF0 /* AdvancedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewModel.swift; sourceTree = "<group>"; };
+		CCF1014D265602E200912EF0 /* AdvancedFirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedFirstTableViewCell.swift; sourceTree = "<group>"; };
+		CCF1014E265602E200912EF0 /* AdvancedFirstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancedFirstTableViewCell.xib; sourceTree = "<group>"; };
+		CCF10151265602F100912EF0 /* AdvancedSecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSecondTableViewCell.swift; sourceTree = "<group>"; };
+		CCF10152265602F100912EF0 /* AdvancedSecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancedSecondTableViewCell.xib; sourceTree = "<group>"; };
+		CCF101552656031400912EF0 /* AdvancedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCF101562656031400912EF0 /* AdvancedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancedCollectionViewCell.xib; sourceTree = "<group>"; };
+		CCF101592656041A00912EF0 /* AdvancedTopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedTopTableViewCell.swift; sourceTree = "<group>"; };
+		CCF1015A2656041A00912EF0 /* AdvancedTopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancedTopTableViewCell.xib; sourceTree = "<group>"; };
 		D6DEFE83E42440849DA81F0A /* Pods_RxDataSourcesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxDataSourcesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,8 +173,9 @@
 		CC4B34FC2652569A00685A1B /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
-				CC4B3508265258ED00685A1B /* AdvancedViewController.swift */,
-				CC4B3509265258ED00685A1B /* AdvancedViewController.xib */,
+				CCF101472656028400912EF0 /* View */,
+				CCF101462656027F00912EF0 /* Model */,
+				CCF101452656027900912EF0 /* ViewModel */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -189,7 +210,7 @@
 			children = (
 				CC4B3504265258DE00685A1B /* IntermediateViewController.swift */,
 				CC4B3505265258DE00685A1B /* IntermediateViewController.xib */,
-				CC4B352D26526FAD00685A1B /* Cell */,
+				CC4B352D26526FAD00685A1B /* SupportView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,13 +232,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CC4B352D26526FAD00685A1B /* Cell */ = {
+		CC4B352D26526FAD00685A1B /* SupportView */ = {
 			isa = PBXGroup;
 			children = (
 				CC4B352E26526FC100685A1B /* IntermediateTableViewCell.swift */,
 				CC4B352F26526FC100685A1B /* IntermediateTableViewCell.xib */,
 			);
-			path = Cell;
+			path = SupportView;
 			sourceTree = "<group>";
 		};
 		CCC0781C2653532200008954 /* Intermediate_more */ = {
@@ -235,7 +256,7 @@
 			children = (
 				CCC07820265353D200008954 /* IntermediateMoreViewController.swift */,
 				CCC07821265353D200008954 /* IntermediateMoreViewController.xib */,
-				CCC07828265354D800008954 /* Cell */,
+				CCC07828265354D800008954 /* SupportView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,7 +277,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CCC07828265354D800008954 /* Cell */ = {
+		CCC07828265354D800008954 /* SupportView */ = {
 			isa = PBXGroup;
 			children = (
 				CCC0782D2653550D00008954 /* IntermediateFirstTableViewCell.swift */,
@@ -266,7 +287,48 @@
 				CCC078352653552900008954 /* IntermediateThirdTableViewCell.swift */,
 				CCC078362653552900008954 /* IntermediateThirdTableViewCell.xib */,
 			);
-			path = Cell;
+			path = SupportView;
+			sourceTree = "<group>";
+		};
+		CCF101452656027900912EF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1014A265602B100912EF0 /* AdvancedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCF101462656027F00912EF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCF10148265602A600912EF0 /* AdvancedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF101472656028400912EF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B3508265258ED00685A1B /* AdvancedViewController.swift */,
+				CC4B3509265258ED00685A1B /* AdvancedViewController.xib */,
+				CCF1014C265602B600912EF0 /* SupportView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCF1014C265602B600912EF0 /* SupportView */ = {
+			isa = PBXGroup;
+			children = (
+				CCF101592656041A00912EF0 /* AdvancedTopTableViewCell.swift */,
+				CCF1015A2656041A00912EF0 /* AdvancedTopTableViewCell.xib */,
+				CCF101552656031400912EF0 /* AdvancedCollectionViewCell.swift */,
+				CCF101562656031400912EF0 /* AdvancedCollectionViewCell.xib */,
+				CCF1014D265602E200912EF0 /* AdvancedFirstTableViewCell.swift */,
+				CCF1014E265602E200912EF0 /* AdvancedFirstTableViewCell.xib */,
+				CCF10151265602F100912EF0 /* AdvancedSecondTableViewCell.swift */,
+				CCF10152265602F100912EF0 /* AdvancedSecondTableViewCell.xib */,
+			);
+			path = SupportView;
 			sourceTree = "<group>";
 		};
 		FC8496CBF4A6C315767C80E7 /* Frameworks */ = {
@@ -340,9 +402,13 @@
 				CC4B34F32652559900685A1B /* LaunchScreen.storyboard in Resources */,
 				CCC078342653551C00008954 /* IntermediateSecondTableViewCell.xib in Resources */,
 				CC4B3507265258DE00685A1B /* IntermediateViewController.xib in Resources */,
+				CCF10150265602E200912EF0 /* AdvancedFirstTableViewCell.xib in Resources */,
 				CCC078382653552900008954 /* IntermediateThirdTableViewCell.xib in Resources */,
+				CCF101582656031400912EF0 /* AdvancedCollectionViewCell.xib in Resources */,
 				CCC078302653550D00008954 /* IntermediateFirstTableViewCell.xib in Resources */,
+				CCF1015C2656041A00912EF0 /* AdvancedTopTableViewCell.xib in Resources */,
 				CC4B350B265258ED00685A1B /* AdvancedViewController.xib in Resources */,
+				CCF10154265602F100912EF0 /* AdvancedSecondTableViewCell.xib in Resources */,
 				CC4B35032652588600685A1B /* BasicViewController.xib in Resources */,
 				CC4B353126526FC100685A1B /* IntermediateTableViewCell.xib in Resources */,
 				CC4B34F02652559900685A1B /* Assets.xcassets in Resources */,
@@ -399,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF1014F265602E200912EF0 /* AdvancedFirstTableViewCell.swift in Sources */,
 				CCC078252653542800008954 /* IntermediateMoreModel.swift in Sources */,
 				CCC07822265353D200008954 /* IntermediateMoreViewController.swift in Sources */,
 				CC4B351626525D1C00685A1B /* BasicViewModel.swift in Sources */,
@@ -406,14 +473,19 @@
 				CCC078272653543300008954 /* IntermediateMoreViewModel.swift in Sources */,
 				CCC0782F2653550D00008954 /* IntermediateFirstTableViewCell.swift in Sources */,
 				CC4B35022652588600685A1B /* BasicViewController.swift in Sources */,
+				CCF1014B265602B100912EF0 /* AdvancedViewModel.swift in Sources */,
 				CC4B34FF2652575B00685A1B /* TabBarViewController.swift in Sources */,
 				CC4B353026526FC100685A1B /* IntermediateTableViewCell.swift in Sources */,
 				CCC078372653552900008954 /* IntermediateThirdTableViewCell.swift in Sources */,
 				CC4B34E92652559800685A1B /* SceneDelegate.swift in Sources */,
 				CCC078332653551C00008954 /* IntermediateSecondTableViewCell.swift in Sources */,
 				CC4B350A265258ED00685A1B /* AdvancedViewController.swift in Sources */,
+				CCF10153265602F100912EF0 /* AdvancedSecondTableViewCell.swift in Sources */,
+				CCF101572656031400912EF0 /* AdvancedCollectionViewCell.swift in Sources */,
 				CC4B351D265267F300685A1B /* IntermediateModel.swift in Sources */,
 				CC4B3506265258DE00685A1B /* IntermediateViewController.swift in Sources */,
+				CCF10149265602A600912EF0 /* AdvancedModel.swift in Sources */,
+				CCF1015B2656041A00912EF0 /* AdvancedTopTableViewCell.swift in Sources */,
 				CC4B35332652729900685A1B /* IntermediateItemViewModel.swift in Sources */,
 				CC4B351F2652681000685A1B /* IntermediateViewModel.swift in Sources */,
 			);

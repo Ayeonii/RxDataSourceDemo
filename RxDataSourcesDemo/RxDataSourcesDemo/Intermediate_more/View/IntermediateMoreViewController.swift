@@ -10,7 +10,10 @@ import RxSwift
 import RxDataSources
 
 class IntermediateMoreViewController: UIViewController {
-
+    
+    private let disposeBag = DisposeBag()
+    private let viewModel = IntermediateMoreViewModel()
+    
     @IBOutlet weak var tableView: UITableView! {
         didSet {
             tableView.delegate = self
@@ -19,9 +22,6 @@ class IntermediateMoreViewController: UIViewController {
             tableView.register(UINib(nibName: "IntermediateThirdTableViewCell", bundle: nil), forCellReuseIdentifier: "IntermediateThirdTableViewCell")
         }
     }
-    
-    private let disposeBag = DisposeBag()
-    private let viewModel = IntermediateMoreViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
